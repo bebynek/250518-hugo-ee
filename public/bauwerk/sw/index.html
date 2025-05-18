@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html><head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+    <meta charset="utf-8"/>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+    <link href="/images/fav/apple-touch-icon.png" rel="apple-touch-icon" sizes="180x180"/>
+    <link href="/images/fav/favicon-32x32.png" rel="icon" sizes="32x32" type="image/png"/>
+    <link href="/images/fav/favicon-16x16.png" rel="icon" sizes="16x16" type="image/png"/>
+    <link href="/images/fav/site.webmanifest" rel="manifest"/>
+    <title>Schlössli Wohlen | erlebeErbe</title>
+    <p class="description"></p>
+    <link href="/css/styles.css" rel="stylesheet"/>
+    <link href="/css/custom.css" rel="stylesheet"/>
+    
+</head>
+
+
+<body><header>
+    <div class="logo h-card">
+        <a class="u-url" href="http://localhost:1313/">
+            <img alt="Site Logo" class="site-logo u-photo" src="/images/logo.png"/>
+        </a>
+    </div>
+    <nav class="menu">
+        <ul>
+                <li>
+                    <a href="/">Home</a>
+                </li>
+                <li>
+                    <a href="/bauwerk/">Bauwerke</a>
+                </li>
+                <li>
+                    <a href="/bauprodukt/">Bauprodukte</a>
+                </li>
+                <li>
+                    <a href="/about/">About</a>
+                </li>
+        </ul>
+    </nav>
+</header>
+
+    
+
+    <section class="hero"
+    style='background-image: url("/images/sw1.png"); background-size: cover; background-position: center; background-repeat: no-repeat; width: 100%;'
+    id="heroSection" onload="adjustTextColor(this)">
+        <div>
+            <h1 class="p-name" id="textOverlay">Schlössli Wohlen</h1>
+        </div>
+    </section>
+    <main class="post h-entry container row">
+        <div class="post">
+            <div class="post-data row">
+                <time class="dt-published" datetime="2025-03-24 14:58:24 &#43;0100 CET">
+                    <a class="u-url" href="http://localhost:1313/bauwerk/sw/">Mar 24, 2025</a>
+                </time>
+                <span rel="author" class="p-author h-card">
+                    <img class="u-photo hidden" src="" />
+                    <span class="p-name hidden" rel="me"></span>
+                </span>
+            </div>
+            <div class="e-content">
+                <p>Die Transformation des Schlössli von einem mehrgeschossigen Wohnhaus zu einem Einraumhaus, erfolgte nebst dem Nutzungsbedürfnis auch aus konstruktiven und finanziellen Gründen.</p>
+<p>Nur die Natursteinmauern brauchbar
+Von der bestehenden Bausubstanz waren nach den Bränden von 2005 und 2007 einzig noch die Aussenmauern brauchbar. Diese bestehen aus Bruchsteinen und sind 55 bis 75 Zentimeter stark. Diese Mauern galt es zu erhalten, bzw. wieder sichtbar zu machen, indem der bestehende Verputz entfernt und mit einem speziellen Zementmörtel mit längerer Abbindezeit beidseits mit einer Tiefe von ca. fünf Zentimeter erneuert wurde. Diese und weitere Massnahmen (Dachkranz und neue Fenstergewände aus Ortbeton sowie Aussteifungen mit Stahlträger) führten dazu, dass das Gebäude stabilisiert werden konnte. Diese Stabilisierungsmassnahmen wurden notwendig, weil das Gebäude ausgekernt wurde, da die bestehenden Decken- und Innenwandkonstruktionen nicht mehr brauchbar waren.</p>
+<p>Interessante Komposition
+Wir haben somit eine Aussenwand mit Öffnungen, deren unterschiedliche Grössen sowie die Unregelmässigkeit ihrer Anordnung eine ausgesprochen interessante Komposition im Innern wie im Äussern ergeben. Das Dach wird – in zeitgemässer Technologie – in vorfabrizierter Tafelbauweise ausgeführt. Diese beinhaltet eine zusätzliche Stabilisierung des Gebäudes sowie eine optimale Wärmedämmung und Schallabsorbtion. Anstelle von Ziegeln wurde ein integriertes Photovoltaik-Dach gewählt, dessen Stromproduktion ins Netz gespiesen wird.</p>
+<p>Ein modernes Haus in alten Mauern
+Die Montage der Fenster erfolgte auf der Innenseite der Gewände, um die Tiefe der Aussenmauern zu demonstrieren. Ein fugenloser, eingefärbter, geschliffener Hartbeton-Bodenbelag eignet sich für jegliche Nutzungen. Ein möbelartiger Einbau, der sich völlig von den Aussenmauern löst, beinhaltet sämtliche für einen vielfältigen Betrieb notwendige Installationen  (Elektro, Sanitär, Heizung, Küche, WC). Zudem  wird die Nutzfläche durch eine aufgesetzte Plattform erweitert, ein Aufenthaltsort, der den Raum auf eine andere Weise erlebbar macht.</p>
+<p>Vielseitig nutzbar
+Es entstand ein asketischer, aber gut funktionierender Raum, dessen Grösse und Lichtführung sowie das Spürbarmachen der 500-jährigen Geschichte zu einer eindrücklichen Atmosphäre beitragen. Die Nutzung des Gebäudes kann entsprechend sehr vielseitig sein: Ausstellungsraum, Konzertraum, Theaterraum, Seminarraum, Sitzungsraum, Partyraum, Bar etc.</p>
+<p>Hans Furter, Furter Eppler Partner Architekten, Wohlen</p>
+<p><img src="/images/sw1.png" alt="Schloessli Wohlen"></p>
+<p><img src="/images/sw2.png" alt="Schloessli Wohlen"></p>
+
+                
+            </div>
+        </div>
+        
+    </main>
+    <script>
+        function adjustTextColor(sectionId) {
+            const section = document.getElementById(sectionId);
+            const style = window.getComputedStyle(section);
+            const imageUrl = style
+                .backgroundImage
+                .slice(4, -1)
+                .replace(/["']/g, "");
+            const image = new Image();
+            image.src = imageUrl;
+            image.onload = function () {
+                const canvas = document.createElement('canvas');
+                const context = canvas.getContext('2d');
+                canvas.width = image.width;
+                canvas.height = image.height;
+                context.drawImage(image, 0, 0, image.width, image.height);
+                const imageData = context.getImageData(0, 0, canvas.width, canvas.height);
+                const data = imageData.data;
+                let r = 0,
+                    g = 0,
+                    b = 0;
+                for (let i = 0; i < data.length; i += 4) {
+                    r += data[i];
+                    g += data[i + 1];
+                    b += data[i + 2];
+                }
+                r /= (data.length / 4);
+                g /= (data.length / 4);
+                b /= (data.length / 4);
+                const brightness = Math.sqrt(0.299 * r * r + 0.587 * g * g + 0.114 * b * b);
+                const textColor = brightness > 128
+                    ? 'black'
+                    : 'white';
+                const shadowColor = brightness > 128
+                    ? 'rgba(255, 255, 255, 0.7)'
+                    : 'rgba(0, 0, 0, 0.7)';
+                const textOverlay = document.getElementById('textOverlay');
+                textOverlay.style.color = textColor;
+                textOverlay.style.textShadow = `0 0 5px ${shadowColor}, 0 0 10px ${shadowColor}, 0 0 20px ${shadowColor}, 0 0 40px ${shadowColor}, 0 0 80px ${shadowColor}, 0 0 90px ${shadowColor}, 0 0 100px ${shadowColor}, 0 0 150px ${shadowColor}`;
+            };
+        }
+        
+        adjustTextColor('heroSection');
+    </script>
+    <script>
+        window.addEventListener('DOMContentLoaded', () => {
+            const observerForTableOfContentActiveState = new IntersectionObserver(entries => {
+                entries.forEach(entry => {
+                    const id = entry
+                        .target
+                        .getAttribute('id');
+
+                    if (entry.intersectionRatio > 0) {
+                        clearActiveStatesInTableOfContents();
+                        document
+                            .querySelector(`nav li a[href="#${id}"]`)
+                            .parentElement
+                            .classList
+                            .add('active');
+                    }
+                });
+            });
+            document
+                .querySelectorAll('h1[id],h2[id],h3[id],h4[id]')
+                .forEach((section) => {
+                    observerForTableOfContentActiveState.observe(section);
+                });
+
+        });
+
+        function clearActiveStatesInTableOfContents() {
+            document
+                .querySelectorAll('nav li')
+                .forEach((section) => {
+                    section
+                        .classList
+                        .remove('active');
+                });
+        }
+    </script>
+<footer>
+
+    <div class="logo h-card">
+        <a class="u-url" href="http://localhost:1313/">
+            <img alt="Site Logo" class="site-logo u-photo" src="/images/logo.png"/>
+        </a>
+        <p>© 2025
+            erlebeErbe</p>
+    </div>
+
+    <script>
+    window.store = {
+    
+    
+    "http:\/\/localhost:1313\/bauprodukt\/": {
+        
+        "title": "Bauprodukt",
+            "tags": [],
+    "content": "", 
+    "url": "http:\/\/localhost:1313\/bauprodukt\/"
+        },
+    
+    
+    "http:\/\/localhost:1313\/bauprodukt\/bp1\/": {
+        
+        "title": "Solarmodul Megasol",
+            "tags": [],
+    "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.\nLorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.\n", 
+    "url": "http:\/\/localhost:1313\/bauprodukt\/bp1\/"
+        },
+    
+    
+    "http:\/\/localhost:1313\/bauwerk\/": {
+        
+        "title": "Bauwerk",
+            "tags": [],
+    "content": "", 
+    "url": "http:\/\/localhost:1313\/bauwerk\/"
+        },
+    
+    
+    "http:\/\/localhost:1313\/bauwerk\/bw2\/": {
+        
+        "title": "Bauwerk 2",
+            "tags": [],
+    "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.\nLorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.\n", 
+    "url": "http:\/\/localhost:1313\/bauwerk\/bw2\/"
+        },
+    
+    
+    "http:\/\/localhost:1313\/": {
+        
+        "title": "erlebeErbe",
+            "tags": [],
+    "content": "Eine Platform für Denkmalpflege und Bauen im Bestand. Entdecke einzigartige Restaurierungsprojekte weltweit. Erfahre mehr über neue Produkte, Technologien und Innovationen am Markt. Und vor allem: erlebe Erbe.\n", 
+    "url": "http:\/\/localhost:1313\/"
+        },
+    
+    
+    "http:\/\/localhost:1313\/bauwerk\/sw\/": {
+        
+        "title": "Schlössli Wohlen",
+            "tags": [],
+    "content": "Die Transformation des Schlössli von einem mehrgeschossigen Wohnhaus zu einem Einraumhaus, erfolgte nebst dem Nutzungsbedürfnis auch aus konstruktiven und finanziellen Gründen.\nNur die Natursteinmauern brauchbar Von der bestehenden Bausubstanz waren nach den Bränden von 2005 und 2007 einzig noch die Aussenmauern brauchbar. Diese bestehen aus Bruchsteinen und sind 55 bis 75 Zentimeter stark. Diese Mauern galt es zu erhalten, bzw. wieder sichtbar zu machen, indem der bestehende Verputz entfernt und mit einem speziellen Zementmörtel mit längerer Abbindezeit beidseits mit einer Tiefe von ca. fünf Zentimeter erneuert wurde. Diese und weitere Massnahmen (Dachkranz und neue Fenstergewände aus Ortbeton sowie Aussteifungen mit Stahlträger) führten dazu, dass das Gebäude stabilisiert werden konnte. Diese Stabilisierungsmassnahmen wurden notwendig, weil das Gebäude ausgekernt wurde, da die bestehenden Decken- und Innenwandkonstruktionen nicht mehr brauchbar waren.\nInteressante Komposition Wir haben somit eine Aussenwand mit Öffnungen, deren unterschiedliche Grössen sowie die Unregelmässigkeit ihrer Anordnung eine ausgesprochen interessante Komposition im Innern wie im Äussern ergeben. Das Dach wird – in zeitgemässer Technologie – in vorfabrizierter Tafelbauweise ausgeführt. Diese beinhaltet eine zusätzliche Stabilisierung des Gebäudes sowie eine optimale Wärmedämmung und Schallabsorbtion. Anstelle von Ziegeln wurde ein integriertes Photovoltaik-Dach gewählt, dessen Stromproduktion ins Netz gespiesen wird.\nEin modernes Haus in alten Mauern Die Montage der Fenster erfolgte auf der Innenseite der Gewände, um die Tiefe der Aussenmauern zu demonstrieren. Ein fugenloser, eingefärbter, geschliffener Hartbeton-Bodenbelag eignet sich für jegliche Nutzungen. Ein möbelartiger Einbau, der sich völlig von den Aussenmauern löst, beinhaltet sämtliche für einen vielfältigen Betrieb notwendige Installationen (Elektro, Sanitär, Heizung, Küche, WC). Zudem wird die Nutzfläche durch eine aufgesetzte Plattform erweitert, ein Aufenthaltsort, der den Raum auf eine andere Weise erlebbar macht.\nVielseitig nutzbar Es entstand ein asketischer, aber gut funktionierender Raum, dessen Grösse und Lichtführung sowie das Spürbarmachen der 500-jährigen Geschichte zu einer eindrücklichen Atmosphäre beitragen. Die Nutzung des Gebäudes kann entsprechend sehr vielseitig sein: Ausstellungsraum, Konzertraum, Theaterraum, Seminarraum, Sitzungsraum, Partyraum, Bar etc.\nHans Furter, Furter Eppler Partner Architekten, Wohlen\n", 
+    "url": "http:\/\/localhost:1313\/bauwerk\/sw\/"
+        },
+    
+    
+    "http:\/\/localhost:1313\/about\/": {
+        
+        "title": "",
+            "tags": [],
+    "content": "Hallo\nich bin Aga\n", 
+    "url": "http:\/\/localhost:1313\/about\/"
+        },
+    
+    
+    "http:\/\/localhost:1313\/bauwerk\/bw3\/": {
+        
+        "title": "",
+            "tags": [],
+    "content": "", 
+    "url": "http:\/\/localhost:1313\/bauwerk\/bw3\/"
+        },
+    
+    
+    "http:\/\/localhost:1313\/categories\/": {
+        
+        "title": "Categories",
+            "tags": [],
+    "content": "", 
+    "url": "http:\/\/localhost:1313\/categories\/"
+        },
+    
+    
+    "http:\/\/localhost:1313\/tags\/": {
+        
+        "title": "Tags",
+            "tags": [],
+    "content": "", 
+    "url": "http:\/\/localhost:1313\/tags\/"
+        },
+    
+    }
+</script>
+
+<script src="/js/lunr.min.js"></script>
+<script src="/js/search.js"></script>
+
+</footer></body>
+</html>

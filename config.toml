@@ -1,0 +1,34 @@
+baseURL = 'https://example.org/'
+languageCode = 'en-us'
+title = 'erlebeErbe'
+description = 'this is a short description'
+theme = 'quint'
+pluralizeListTitles = false
+
+
+[menu]
+  [[menu.main]]
+    name = "Home"
+    url = "/"
+    weight = 1
+
+  [[menu.main]]
+    name = "Bauwerke"
+    url = "/bauwerk/"
+    weight = 2
+
+  [[menu.main]]
+    name = "Bauprodukte"
+    url = "/bauprodukt/"
+    weight = 3
+
+  [[menu.main]]
+    name = "About"
+    url = "/about/"
+    weight = 4
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+
