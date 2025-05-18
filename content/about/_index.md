@@ -4,7 +4,7 @@ layout = 'about'
 **status**
 
 
-erlebeerbe ist ein Start-up in der Gründungsphase, 
+**erlebeErbe** ist ein Start-up in der Gründungsphase, 
 das Architekten und Planer sowie Eigentümer denkmalgeschützter Gebäude bei der Planung nachhaltiger Baumaßnahmen und der Umsetzung innovativer Lösungen und neuer Technologien unterstützt. 
 
 
