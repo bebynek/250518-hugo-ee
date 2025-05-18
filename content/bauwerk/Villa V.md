@@ -2,7 +2,7 @@
 date = '2025-03-24T14:58:24+01:00'
 draft = true
 title = 'Villa V'
-image = '/images/sw1.png'
+image = '/images/villav1.jpg'
 +++
 
 
@@ -20,6 +20,5 @@ Frau F zeigt die liebevoll sanierte Villa mit großer Freude und möchte damit a
 
 
 
-![Schloessli Wohlen](/images/sw1.png)
+![Villa V](/images/villav1.jpg)
 
-![Schloessli Wohlen](/images/sw2.png)

@@ -1,7 +1,7 @@
 +++
 date = '2025-03-24T15:57:49+01:00'
 draft = true
-title = 'Solarmodul Megasol'
+title = 'Bauprodukt 1'
 image = '/images/pvms.png'
 +++
 
