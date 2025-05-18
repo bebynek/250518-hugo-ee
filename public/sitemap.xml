@@ -5,8 +5,17 @@
     <loc>http://localhost:1313/bauprodukt/</loc>
     <lastmod>2025-03-24T15:57:49+01:00</lastmod>
   </url><url>
+    <loc>http://localhost:1313/bauprodukt/bp1/</loc>
+    <lastmod>2025-03-24T15:57:49+01:00</lastmod>
+  </url><url>
     <loc>http://localhost:1313/bauwerk/</loc>
-    <lastmod>2025-03-24T15:57:13+01:00</lastmod>
+    <lastmod>2025-03-24T14:58:24+01:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/</loc>
+    <lastmod>2025-03-24T14:58:24+01:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/bauwerk/villa-v/</loc>
+    <lastmod>2025-03-24T14:58:24+01:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/about/</loc>
   </url><url>

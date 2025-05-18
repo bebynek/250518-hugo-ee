@@ -2,9 +2,9 @@
 <html><head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
     <meta charset="utf-8"/>
     <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
-    <link href="/images/fav/apple-touch-icon.png" rel="apple-touch-icon" sizes="180x180"/>
-    <link href="/images/fav/favicon-32x32.png" rel="icon" sizes="32x32" type="image/png"/>
-    <link href="/images/fav/favicon-16x16.png" rel="icon" sizes="16x16" type="image/png"/>
+    <link href="/images/logo.png" rel="apple-touch-icon" sizes="180x180"/>
+    <link href="/images/logo.png" rel="icon" sizes="32x32" type="image/png"/>
+    <link href="/images/logo.png" rel="icon" sizes="16x16" type="image/png"/>
     <link href="/images/fav/site.webmanifest" rel="manifest"/>
     <title>Bauprodukt | erlebeErbe</title>
     <p class="description"></p>
@@ -16,7 +16,7 @@
 
 <body><header>
     <div class="logo h-card">
-        <a class="u-url" href="">
+        <a class="u-url" href="http://localhost:1313/">
             <img alt="Site Logo" class="site-logo u-photo" src="/images/logo.png"/>
         </a>
     </div>
@@ -40,7 +40,7 @@
 
     <section class="hero">
         <h1 class="p-name">Bauprodukt</h1>
-        <form action='' class="form-inline" id="search" method="get">
+                <form action='' class="form-inline" id="search" method="get">
     <label for="search-input" hidden="">Search site</label>
     <input id="search-input" name="query" placeholder="Type here to search" type="text"/>
     <button type="submit" value="search">Search</button>
@@ -57,6 +57,19 @@
 
 <div class="cards" id="results">
     
+        <div class="card h-entry">
+            <a href="http://localhost:1313/bauprodukt/bp1/" class="u-url">
+                
+                    <img src="/images/pvms.png" alt="Bauprodukt" class="u-photo">
+                
+                <div class="text">
+                    <h2 class="p-name">Bauprodukt 1</h2>
+                    <p class="small e-content"><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore …</p>
+                    </p>
+                </div>
+            </a>
+        </div>
+    
 </div>
 
 
@@ -65,7 +78,7 @@
 <footer>
 
     <div class="logo h-card">
-        <a class="u-url" href="">
+        <a class="u-url" href="http://localhost:1313/">
             <img alt="Site Logo" class="site-logo u-photo" src="/images/logo.png"/>
         </a>
         <p>© 2025
@@ -74,15 +87,6 @@
 
     <script>
     window.store = {
-    
-    
-    "http:\/\/localhost:1313\/about\/": {
-        
-        "title": "",
-            "tags": [],
-    "content": "status\nerlebeerbe ist ein Start-up in der Gründungsphase, das Architekten und Planer sowie Eigentümer denkmalgeschützter Gebäude bei der Planung nachhaltiger Baumaßnahmen und der Umsetzung innovativer Lösungen und neuer Technologien unterstützt. mission\nGebäude sind Zeugen unserer Vergangenheit und erzählen unsere Geschichte. Mir ist es wichtig, dass die wertvolle Bausubstanz erhalten bleibt, vor allem jetzt angesichts der aktuellen Klimasituation und der negativen Umweltauswirkungen der Baubranche. Ich bin sehr davon überzeugt, dass der sorgfältige Umgang mit denkmalgeschützten Gebäuden ein Indikator für den Umgang mit dem gesamten Baubestand sein sollte.\n", 
-    "url": "http:\/\/localhost:1313\/about\/"
-        },
     
     
     "http:\/\/localhost:1313\/bauprodukt\/": {
@@ -94,12 +98,48 @@
         },
     
     
+    "http:\/\/localhost:1313\/bauprodukt\/bp1\/": {
+        
+        "title": "Bauprodukt 1",
+            "tags": [],
+    "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.\nLorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.\n", 
+    "url": "http:\/\/localhost:1313\/bauprodukt\/bp1\/"
+        },
+    
+    
     "http:\/\/localhost:1313\/bauwerk\/": {
         
         "title": "Bauwerk",
             "tags": [],
     "content": "", 
     "url": "http:\/\/localhost:1313\/bauwerk\/"
+        },
+    
+    
+    "http:\/\/localhost:1313\/": {
+        
+        "title": "erlebeErbe",
+            "tags": [],
+    "content": "Eine Platform für Denkmalpflege und Bauen im Bestand. Entdecke einzigartige Restaurierungsprojekte weltweit. Erfahre mehr über neue Produkte, Technologien und Innovationen am Markt. Und vor allem: erlebeErbe\n", 
+    "url": "http:\/\/localhost:1313\/"
+        },
+    
+    
+    "http:\/\/localhost:1313\/bauwerk\/villa-v\/": {
+        
+        "title": "Villa V",
+            "tags": [],
+    "content": "Achtung : fiktives Projekt, eventuelle Ähnlichkeiten mit realen Personen / Firmen sind zufällig und nicht beabsichtigt.\nMit großem Engagement sanierte eine Rentnerin aus Bayern eine Villa aus dem späten 20. Jahrhundert und bewahrte sie so vor dem Verfall. Darüber hinaus wurde das Gebäude energetisch modernisiert und bietet nach Abschluss der Maßnahmen ein komfortables und behagliches Zuhause.\nDie Villa stand über mehrere Jahrzehnte verlassen, bis sich Frau F, eine engagierte Rentnerin aus der Region, ihrer annahm. Mit Unterstützung eines Teams aus Fachplanern wurde die Sanierung sorgfältig geplant und schließlich gemeinsam mit erfahrenen Handwerkern umgesetzt. Die Mauerwerkswände wurden punktuell instand gesetzt, der Dachstuhl umfassend saniert. Das Dach erhielt eine moderne Dämmung und neue Dachziegel. Die historischen Fenster wurden fachgerecht restauriert; zur Verbesserung der Energieeffizienz kamen zusätzlich innenseitige Vorfenster zum Einsatz. Frau F zeigt die liebevoll sanierte Villa mit großer Freude und möchte damit andere für den Erhalt von Denkmälern begeistern. Den weitläufigen Garten stellt sie gerne für lokale Veranstaltungen zur Verfügung – in der Hoffnung, dass möglichst viele Menschen die Villa erleben und schätzen lernen.\nEnergetische Sanierung\nU-Werte:\nFassade, Fenster, Dach, Bodenplatte gegen Erdreich\nDurchschnitt: XXX\nHeiztechnik: XXX\nPrimärenergiebedarf: XXX\nFakten\nBauherr: privat\nArchitektur: Architekt XXX\nBaujahr: 1907\nFertigstellung Sanierung: 2024\nWohnfläche: 76 m2\nBaukosten (brutto): XXX EUR\nVerwendete Produkte\nBauprodukt 1\nBauprodukt 2\n", 
+    "url": "http:\/\/localhost:1313\/bauwerk\/villa-v\/"
+        },
+    
+    
+    "http:\/\/localhost:1313\/about\/": {
+        
+        "title": "",
+            "tags": [],
+    "content": "status\nerlebeerbe ist ein Start-up in der Gründungsphase, das Architekten und Planer sowie Eigentümer denkmalgeschützter Gebäude bei der Planung nachhaltiger Baumaßnahmen und der Umsetzung innovativer Lösungen und neuer Technologien unterstützt. mission\nGebäude sind Zeugen unserer Vergangenheit und erzählen unsere Geschichte. Mir ist es wichtig, dass die wertvolle Bausubstanz erhalten bleibt, vor allem jetzt angesichts der aktuellen Klimasituation und der negativen Umweltauswirkungen der Baubranche. Ich bin sehr davon überzeugt, dass der sorgfältige Umgang mit denkmalgeschützten Gebäuden ein Indikator für den Umgang mit dem gesamten Baubestand sein sollte.\n", 
+    "url": "http:\/\/localhost:1313\/about\/"
         },
     
     

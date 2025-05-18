@@ -6,7 +6,7 @@ image = '/images/villav1.png'
 +++
 
 
-Achtung : fiktives Projekt, eventuelle Ähnlichkeiten mit realen Personen / Firmen sind zufällig und nicht beabsichtigt. 
+**Achtung : fiktives Projekt, eventuelle Ähnlichkeiten mit realen Personen / Firmen sind zufällig und nicht beabsichtigt.**
 
 
 Mit großem Engagement sanierte eine Rentnerin aus Bayern eine Villa aus dem späten 20. Jahrhundert und bewahrte sie so vor dem Verfall. Darüber hinaus wurde das Gebäude energetisch modernisiert und bietet nach Abschluss der Maßnahmen ein komfortables und behagliches Zuhause.
@@ -20,23 +20,36 @@ Frau F zeigt die liebevoll sanierte Villa mit großer Freude und möchte damit a
 ![Villa V](/images/villav2.jpg)
 
 
-Energetische Sanierung
+**Energetische Sanierung**
+
 U-Werte: 
+
 Fassade, Fenster, Dach, Bodenplatte gegen Erdreich
+
 Durchschnitt: XXX
+
 Heiztechnik: XXX
+
 Primärenergiebedarf: XXX
 
+**Fakten**
 
 Bauherr: privat
+
 Architektur: Architekt XXX
+
 Baujahr: 1907
+
 Fertigstellung Sanierung: 2024
+
 Wohnfläche: 76 m2
+
 Baukosten (brutto): XXX EUR
 
 
-Verwendete Produkte
+
+
+**Verwendete Produkte**
 
 Bauprodukt 1
 
