@@ -389,47 +389,41 @@ ul.search-results li a {
 }
 
 /* Footer Styles */
-footer {
+
+
+.footer-container {
+    padding: 1rem 2rem;
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
+    min-width: 0rem;
     align-items: center;
-    padding: 20px;
     color: var(--primary-text);
-    font-size: 0.8rem;
 }
 
-footer div {
-    min-width: 5rem;
-    align-items: center;
+.footer-menu ul {
+  list-style: none;
+  padding: 0px;
+  margin: 0px;
+  display: flex;
+  gap: 1rem;
+
 }
 
-@media (prefers-color-scheme: dark) {
-    footer .social-media a,
-    footer .social-media a img {
-        filter: brightness(50%) invert(75%);
-    }
+.footer-menu li a {
+  text-decoration: none;
+  color: #333;
+  font-size: 0.8rem;
+  display: inline-block;
+  line-height: 1.5;
 }
 
-footer .social-media a img {
-    height: 20px;
-    padding: 0.5rem;
-}
+.footer-logo {
+  padding: 0px;
+  margin: 0px;
+  font-size: 0.8rem;
+  line-height: 1.5;
+  white-space: nowrap;
 
-footer .logo {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
-footer .logo img {
-    height: 50px;
-    align-items: center;
-}
-
-footer .logo p {
-    margin: 5px 0 0;
-    font-size: 0.8rem;
-    align-items: center;
 }
 
 /* Pagination Styles */
