@@ -27,6 +27,17 @@ pluralizeListTitles = false
     url = "/about/"
     weight = 4
 
+     [[menu.footer]]
+    name = "Impressum"
+    url = "/footer/"
+    weight = 1
+
+  [[menu.footer]]
+    name = "Datenschutz"
+    url = "/footer/"
+    weight = 2
+
+
 [markup]
   [markup.goldmark]
     [markup.goldmark.renderer]
