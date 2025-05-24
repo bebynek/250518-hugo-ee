@@ -1,11 +1,19 @@
 <footer>
 
-    <div class="logo h-card">
-        <a class="u-url" href="{{ .Site.Home.Permalink }}">
-            <img alt="Site Logo" class="site-logo u-photo" src="{{ $.Site.Params.logo | default "/images/logo.png" }}"/>
-        </a>
-        <p>© {{ now.Format "2006" }}
-            {{ .Site.Title }}</p>
+ <div class="footer-container">
+
+      <nav class="footer-menu">
+    <ul>
+      {{ range .Site.Menus.footer }}
+        <li><a href="{{ .URL }}">{{ .Name }}</a></li>
+      {{ end }}
+    </ul>
+  </nav>
+
+    <div class="footer-logo">
+
+        <span>© {{ now.Format "2006" }}
+            {{ .Site.Title }}</span>
     </div>
 
     {{ partial "search-index.html" . }}
